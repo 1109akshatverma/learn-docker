@@ -1,0 +1,7 @@
+docker run -e AZURE_CLIENT_ID=<your-client-id> \
+  -e AZURE_CLIENT_SECRET=<your-client-secret> \
+  -e AZURE_TENANT_ID=<your-tenant-id> \
+  -e AZURE_SUBSCRIPTION_ID=<your-subscription-id> \
+  -e RESOURCE_GROUP_NAME=<your-rg-name> \
+  -e LOCATION=eastus \
+  <image-name>
